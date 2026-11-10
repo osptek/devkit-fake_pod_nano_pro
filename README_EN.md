@@ -44,15 +44,19 @@ It is built around the ESP32-S31, with a Cirrus Logic CS43131 DAC/headphone ampl
 | Audio | Cirrus Logic CS43131 DAC + headphone amp, hardware volume, 24.576 MHz crystal; up to 96 kHz on this board |
 | Storage | microSD (4-bit SDMMC) |
 | Microphone | PDM microphone |
-| IMU | 6-axis (3-axis accelerometer + 3-axis gyroscope) |
+| IMU | QMI8658 6-axis (accelerometer + gyroscope) |
 | Power Management | AXP2101 |
 | RTC | PCF85063 |
 | USB | Reversible: default orientation is USB serial (logs, flashing); flipped is USB Audio (UAC) / Mass Storage (MSC) |
-| Buttons | 2 (top power button, bottom button) |
+| Buttons | Top power button (AXP2101), bottom button (GPIO) |
 | Enclosure | CNC anodized aluminum |
 
 > [!NOTE]
 > Figures in the CS43131 datasheet (130 dB dynamic range, -115 dB THD+N, 384 kHz, etc.) are chip capabilities, not measured results for this device. This board supports up to 96 kHz.
+
+## Development
+
+Firmware can be developed with ESP-IDF, targeting `esp32s31`. GPIO assignments, I²C addresses and reference configurations for the onboard peripherals are in the [Developer Hardware Guide (V1 production)](docs/hardware_v1_EN.md).
 
 ## Factory Firmware
 
