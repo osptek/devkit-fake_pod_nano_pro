@@ -7,18 +7,18 @@ OSPTEK Pocket Hi-Fi Development Kit · ESP32-S31 · CS43131 DAC/Amp · 460 × 46
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MCU-ESP32--S31-141414?style=for-the-badge" alt="MCU">
-  <img src="https://img.shields.io/badge/DAC-CS43131-E8742A?style=for-the-badge" alt="DAC">
-  <img src="https://img.shields.io/badge/Display-460%C3%97460%20AMOLED-D93A2B?style=for-the-badge" alt="Display">
-  <img src="https://img.shields.io/badge/PMU-AXP2101-2058C4?style=for-the-badge" alt="PMU">
-  <img src="https://img.shields.io/badge/RTC-PCF85063-2E8B4A?style=for-the-badge" alt="RTC">
+  <img src="https://img.shields.io/badge/MCU-ESP32--S31-7C5CE6?style=flat-square&labelColor=2C2D34" alt="MCU">
+  <img src="https://img.shields.io/badge/DAC-CS43131-7C5CE6?style=flat-square&labelColor=2C2D34" alt="DAC">
+  <img src="https://img.shields.io/badge/Display-460%C3%97460%20AMOLED-7C5CE6?style=flat-square&labelColor=2C2D34" alt="Display">
+  <img src="https://img.shields.io/badge/PMU-AXP2101-7C5CE6?style=flat-square&labelColor=2C2D34" alt="PMU">
+  <img src="https://img.shields.io/badge/RTC-PCF85063-7C5CE6?style=flat-square&labelColor=2C2D34" alt="RTC">
 </p>
 
 <p align="center">
   <a href="README.md">简体中文</a> &nbsp;|&nbsp; <b>English</b>
 </p>
 
-<img src="docs/images/divider.svg" alt="" width="100%" height="6">
+<img src="docs/images/divider.svg" alt="" width="100%" height="4">
 
 ## Overview
 
@@ -167,7 +167,7 @@ Use the [ESP web flasher](https://pressf5.run/esp-flash/) (desktop Chrome / Edge
 - Hardware files and documentation (`hardware/`, `docs/`): [CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0)
 - Third-party components retain their original licenses
 
-<img src="docs/images/divider.svg" alt="" width="100%" height="6">
+<img src="docs/images/divider.svg" alt="" width="100%" height="4">
 
 <p align="center">
   <b>O S P T E K</b> &nbsp;·&nbsp; <code>FAKE-POD-NANO-PRO</code>

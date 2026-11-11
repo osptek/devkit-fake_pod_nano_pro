@@ -7,18 +7,18 @@ OSPTEK 口袋 Hi-Fi 开发套件 · ESP32-S31 主控 · CS43131 解码耳放 · 
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MCU-ESP32--S31-141414?style=for-the-badge" alt="MCU">
-  <img src="https://img.shields.io/badge/DAC-CS43131-E8742A?style=for-the-badge" alt="DAC">
-  <img src="https://img.shields.io/badge/Display-460%C3%97460%20AMOLED-D93A2B?style=for-the-badge" alt="Display">
-  <img src="https://img.shields.io/badge/PMU-AXP2101-2058C4?style=for-the-badge" alt="PMU">
-  <img src="https://img.shields.io/badge/RTC-PCF85063-2E8B4A?style=for-the-badge" alt="RTC">
+  <img src="https://img.shields.io/badge/MCU-ESP32--S31-7C5CE6?style=flat-square&labelColor=2C2D34" alt="MCU">
+  <img src="https://img.shields.io/badge/DAC-CS43131-7C5CE6?style=flat-square&labelColor=2C2D34" alt="DAC">
+  <img src="https://img.shields.io/badge/Display-460%C3%97460%20AMOLED-7C5CE6?style=flat-square&labelColor=2C2D34" alt="Display">
+  <img src="https://img.shields.io/badge/PMU-AXP2101-7C5CE6?style=flat-square&labelColor=2C2D34" alt="PMU">
+  <img src="https://img.shields.io/badge/RTC-PCF85063-7C5CE6?style=flat-square&labelColor=2C2D34" alt="RTC">
 </p>
 
 <p align="center">
   <b>简体中文</b> &nbsp;|&nbsp; <a href="README_EN.md">English</a>
 </p>
 
-<img src="docs/images/divider.svg" alt="" width="100%" height="6">
+<img src="docs/images/divider.svg" alt="" width="100%" height="4">
 
 ## 简介
 
@@ -167,7 +167,7 @@ TF 卡格式化为 FAT32，把仓库 [`tfcard/`](tfcard) 下的各文件夹直�
 - 硬件资料与文档（`hardware/`、`docs/`）：[CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0)
 - 第三方组件沿用其原有许可证
 
-<img src="docs/images/divider.svg" alt="" width="100%" height="6">
+<img src="docs/images/divider.svg" alt="" width="100%" height="4">
 
 <p align="center">
   <b>O S P T E K</b> &nbsp;·&nbsp; <code>FAKE-POD-NANO-PRO</code>
