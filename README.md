@@ -51,6 +51,8 @@ FAKE POD NANO PRO 是 OSPTEK 推出的口袋 Hi-Fi 开发套件，本仓库对�
 | 按键 | 上方电源键（AXP2101）、下方按键（GPIO） |
 | 外壳 | CNC 阳极氧化铝 |
 
+完整原理图见 [hardware/FakePod_S31_Schematic_V1.0.pdf](hardware/FakePod_S31_Schematic_V1.0.pdf)。
+
 > [!NOTE]
 > CS43131 芯片手册中的 130 dB 动态范围、-115 dB THD+N、384 kHz 等为芯片能力，不代表整机实测指标。本板最高采样率为 96 kHz。
 

@@ -51,6 +51,8 @@ It is built around the ESP32-S31, with a Cirrus Logic CS43131 DAC/headphone ampl
 | Buttons | Top power button (AXP2101), bottom button (GPIO) |
 | Enclosure | CNC anodized aluminum |
 
+The full schematic is in [hardware/FakePod_S31_Schematic_V1.0.pdf](hardware/FakePod_S31_Schematic_V1.0.pdf).
+
 > [!NOTE]
 > Figures in the CS43131 datasheet (130 dB dynamic range, -115 dB THD+N, 384 kHz, etc.) are chip capabilities, not measured results for this device. This board supports up to 96 kHz.
 
