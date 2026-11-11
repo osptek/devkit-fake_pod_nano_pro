@@ -112,7 +112,7 @@ FAKE POD NANO PRO 是 OSPTEK 推出的口袋 Hi-Fi 开发套件，本仓库对�
 
 ### TF 卡资源
 
-TF 卡格式化为 FAT32，将与固件配套的资源包解压后，把各文件夹直接放在 TF 卡根目录（不要再套一层文件夹）：
+TF 卡格式化为 FAT32，把仓库 [`tfcard/`](tfcard) 下的各文件夹直接复制到 TF 卡根目录（不要再套一层文件夹）。出于版权原因，资源包中的 `music/`、`playlist/`、`nsf/` 为空目录，请自行放入音乐和 NSF 文件：
 
 | 目录 | 内容 |
 | :--- | :--- |
@@ -125,7 +125,18 @@ TF 卡格式化为 FAT32，将与固件配套的资源包解压后，把各文�
 | `nsf/` | NSF 芯片音乐 |
 | `night7/` | 开机动画、默认封面等运行资源 |
 
-增删歌曲后，在设置的「应用选项」中更新歌单。MP4 直接改扩展名为 `.avi` 无法播放，需要重新编码。
+增删歌曲后，在设置的「应用选项」中更新歌单，也可以用电脑上的歌单生成器生成。MP4 直接改扩展名为 `.avi` 无法播放，需要重新编码。
+
+开机动画、默认封面的替换要求见 [`tfcard/night7/替换注意.txt`](tfcard/night7/替换注意.txt)。
+
+### 电脑端工具
+
+[`tools/`](tools) 下是两个 Windows 小工具（需要 .NET Framework）：
+
+| 工具 | 用途 |
+| :--- | :--- |
+| [`SMART_CONVERTER.exe`](tools/SMART_CONVERTER.exe) | 基于 FFmpeg 把视频转换为设备可播放的 MJPEG / AVI，支持预览和批量转换。需要同目录下有 `ffmpeg.exe` |
+| [`歌单生成器.exe`](tools/歌单生成器.exe) | 扫描 TF 卡 `music/` 下的文件夹，在 `playlist/` 中生成 `.npl` 歌单 |
 
 ### 蓝牙发送
 

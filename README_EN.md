@@ -112,7 +112,7 @@ Gesture track skipping (IMU) can be turned on or off in settings.
 
 ### microSD Resources
 
-Format the card as FAT32. Unzip the resource pack that matches your firmware and copy its folders directly to the card root (not inside another folder):
+Format the card as FAT32 and copy the folders under [`tfcard/`](tfcard) directly to the card root (not inside another folder). For copyright reasons, `music/`, `playlist/` and `nsf/` are left empty; add your own music and NSF files:
 
 | Folder | Contents |
 | :--- | :--- |
@@ -125,7 +125,18 @@ Format the card as FAT32. Unzip the resource pack that matches your firmware and
 | `nsf/` | NSF chiptunes |
 | `night7/` | Boot animation, default cover and other runtime resources |
 
-After adding or removing songs, update the playlist under App Options in settings. An MP4 renamed to `.avi` will not play; it must be re-encoded.
+After adding or removing songs, update the playlist under App Options in settings, or generate it on a PC with the playlist maker. An MP4 renamed to `.avi` will not play; it must be re-encoded.
+
+Requirements for replacing the boot animation and default cover are in [`tfcard/night7/替换注意.txt`](tfcard/night7/替换注意.txt) (Chinese).
+
+### PC Tools
+
+[`tools/`](tools) contains two small Windows utilities (require .NET Framework):
+
+| Tool | Purpose |
+| :--- | :--- |
+| [`SMART_CONVERTER.exe`](tools/SMART_CONVERTER.exe) | FFmpeg-based converter that turns videos into MJPEG / AVI the device can play, with preview and batch mode. Needs `ffmpeg.exe` in the same folder |
+| [`歌单生成器.exe`](tools/歌单生成器.exe) (Playlist Maker) | Scans the folders under `music/` on the card and writes `.npl` playlists to `playlist/` |
 
 ### Bluetooth Transmit
 
