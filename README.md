@@ -58,6 +58,16 @@ FAKE POD NANO PRO 是 OSPTEK 推出的口袋 Hi-Fi 开发套件，本仓库对�
 
 整机基于 ESP-IDF 开发，目标芯片为 `esp32s31`。板载外设的 GPIO 分配、I²C 地址和各接口的参考配置见 [开发者硬件说明（V1 量产版）](docs/hardware_v1.md)。
 
+## 外壳模型
+
+外壳的 STEP 3D 模型位于 [`hardware/enclosure/`](hardware/enclosure)，可用于设计配件或自制外壳：
+
+| 零件 | 材质 | 文件 |
+| :--- | :--- | :--- |
+| 本体 | 铝合金 CNC | [`FakePod_S31_Body_Aluminum_CNC.step`](hardware/enclosure/FakePod_S31_Body_Aluminum_CNC.step) |
+| 右侧盖板 | 铝合金 CNC | [`FakePod_S31_RightCover_Aluminum_CNC.step`](hardware/enclosure/FakePod_S31_RightCover_Aluminum_CNC.step) |
+| 左侧盖板 | 黑色不透光亚克力 | [`FakePod_S31_LeftCover_BlackAcrylic.step`](hardware/enclosure/FakePod_S31_LeftCover_BlackAcrylic.step) |
+
 ## 出厂固件
 
 ### 功能
@@ -141,7 +151,7 @@ TF 卡格式化为 FAT32，将与固件配套的资源包解压后，把各文�
 ## 许可证
 
 - 代码：[Apache-2.0](LICENSE)
-- 硬件资料与文档：[CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0)
+- 硬件资料与文档（`hardware/`、`docs/`）：[CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0)
 - 第三方组件沿用其原有许可证
 
 <img src="docs/images/divider.svg" alt="" width="100%" height="6">

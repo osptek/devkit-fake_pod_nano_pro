@@ -58,6 +58,16 @@ It is built around the ESP32-S31, with a Cirrus Logic CS43131 DAC/headphone ampl
 
 Firmware can be developed with ESP-IDF, targeting `esp32s31`. GPIO assignments, I²C addresses and reference configurations for the onboard peripherals are in the [Developer Hardware Guide (V1 production)](docs/hardware_v1_EN.md).
 
+## Enclosure Models
+
+STEP 3D models of the enclosure are in [`hardware/enclosure/`](hardware/enclosure), for designing accessories or making your own enclosure:
+
+| Part | Material | File |
+| :--- | :--- | :--- |
+| Body | CNC aluminum | [`FakePod_S31_Body_Aluminum_CNC.step`](hardware/enclosure/FakePod_S31_Body_Aluminum_CNC.step) |
+| Right cover | CNC aluminum | [`FakePod_S31_RightCover_Aluminum_CNC.step`](hardware/enclosure/FakePod_S31_RightCover_Aluminum_CNC.step) |
+| Left cover | Opaque black acrylic | [`FakePod_S31_LeftCover_BlackAcrylic.step`](hardware/enclosure/FakePod_S31_LeftCover_BlackAcrylic.step) |
+
 ## Factory Firmware
 
 ### Features
@@ -141,7 +151,7 @@ Use the [ESP web flasher](https://pressf5.run/esp-flash/) (desktop Chrome / Edge
 ## License
 
 - Code: [Apache-2.0](LICENSE)
-- Hardware files and documentation: [CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0)
+- Hardware files and documentation (`hardware/`, `docs/`): [CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0)
 - Third-party components retain their original licenses
 
 <img src="docs/images/divider.svg" alt="" width="100%" height="6">
